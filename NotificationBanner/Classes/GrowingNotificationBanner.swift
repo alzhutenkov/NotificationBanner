@@ -96,10 +96,10 @@ open class GrowingNotificationBanner: BaseNotificationBanner {
     private let sideViewSize: CGFloat
     
     /// Font used for the title label
-    internal var titleFont: UIFont = UIFont.systemFont(ofSize: 17.5, weight: UIFont.Weight.bold)
+    var titleFont: UIFont = UIFont.systemFont(ofSize: 17.5, weight: UIFont.Weight.bold)
     
     /// Font used for the subtitle label
-    internal var subtitleFont: UIFont = UIFont.systemFont(ofSize: 15.0)
+    var subtitleFont: UIFont = UIFont.systemFont(ofSize: 15.0)
     
     public init(
         title: String? = nil,
